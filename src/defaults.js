@@ -1,5 +1,5 @@
 let defaults = {
-  menuRadius: 100, // the radius of the circular menu in pixels
+  menuRadius: 256, // the radius of the circular menu in pixels
   selector: 'node', // elements matching this Cytoscape.js selector will trigger cxtmenus
   commands: [ // an array of commands to list in the menu or a function that returns the array
     /*
@@ -14,14 +14,16 @@ let defaults = {
     }
     */
   ], // function( ele ){ return [ /*...*/ ] }, // example function for commands
-  fillColor: 'rgba(0, 0, 0, 0.75)', // the background colour of the menu
-  activeFillColor: 'rgba(1, 105, 217, 0.75)', // the colour used to indicate the selected command
+  fillColor: 'rgba(17,20,24,0.7)', // the background colour of the menu
+  activeFillColor: 'rgba(95, 107, 124, 0.7)', // the colour used to indicate the selected command
   activePadding: 0, // additional size in pixels for the active command
-  indicatorSize: 24, // the size in pixels of the pointer to the active command
-  separatorWidth: 3, // the empty spacing in pixels between successive commands
+  indicatorSize: 0, // the size in pixels of the pointer to the active command
+  separatorWidth: 1, // the empty spacing in pixels between successive commands
+  separatorHoveredCommandsWidth: 4.3,
+  separatorColor: '#000',
   spotlightPadding: 4, // extra spacing in pixels between the element and the spotlight
-  minSpotlightRadius: 24, // the minimum radius in pixels of the spotlight
-  maxSpotlightRadius: 38, // the maximum radius in pixels of the spotlight
+  minSpotlightRadius: 102.5, // the minimum radius in pixels of the spotlight
+  maxSpotlightRadius: 102.5, // the maximum radius in pixels of the spotlight
   openMenuEvents: 'cxttap', // space-separated cytoscape events that will open the menu; only `cxttapstart` and/or `taphold` work here
   itemColor: 'white', // the colour of text in the command's content
   itemTextShadowColor: 'transparent', // the text shadow colour of the command's content
