@@ -19,11 +19,11 @@ New features:
 ## Install and Import
 
 ```bash
-npm install @tohid_adib/cytoscape-cxtmenu --save
+npm install @lsvih/cytoscape-cxtmenu --save
 ```
 
 ```js
-import cxtmenu from '@tohid_adib/cytoscape-cxtmenu'
+import cxtmenu from '@lsvih/cytoscape-cxtmenu'
 cytoscape.use(cxtmenu)
 ```
  
@@ -31,4 +31,4 @@ cytoscape.use(cxtmenu)
 
 See [original repo](https://github.com/cytoscape/cytoscape.js-cxtmenu)
 
-Options about submenu: refer to [demo.html](https://github.com/TohidAdib/cytoscape.js-cxtmenu/blob/master/demo.html)
+Options about submenu: refer to [demo.html](https://github.com/lsvih/cytoscape.js-cxtmenu/blob/master/demo.html)
